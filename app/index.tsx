@@ -14,6 +14,7 @@ export default function Home() {
       <Text>Home Page</Text>
       <Link href={"/about"}>About</Link>
       <Link href={"/profile/p"}>Profile</Link>
+      <Link href={"/products/productList"}>Products</Link>
     </View>
   );
 }
