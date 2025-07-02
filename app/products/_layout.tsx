@@ -4,7 +4,7 @@ import { Text, View, StyleSheet } from "react-native";
 export default function ProductsLayout() {
     return (
         <View style={styles.container}>
-            <slot/>
+            <Slot/>
             <View style={styles.discountedProducts}>
                 <Text>Discounted Products</Text>
             </View>
